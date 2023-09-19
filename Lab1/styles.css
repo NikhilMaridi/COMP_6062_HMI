@@ -1,0 +1,23 @@
+
+h1 {
+    padding: 16px 32px; 
+    background-color: #ddd;
+    text-align: center;
+}
+
+footer {
+    padding: 16px 32px; 
+    background-color: #ddd;
+    text-align: center;
+}
+
+a {
+    background-color: #00F;
+    color: #fff;
+    padding: 6px 12px; 
+    text-decoration: none; 
+}
+
+:hover {
+    background-color: #0066cc; 
+}
