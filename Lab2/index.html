@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Login Form
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       <form class="mb-8" action = "" method="post">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username" required minlength="5">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required minlength="5">
+            </div>
+            <div>
+                <label for="remember_me">Remember me:</label>
+                <input type="checkbox" id="remember_me" name="remember_me" checked>
+            </div>
+            <div>
+                <button class="btn" type="submit">Login</button>
+            </div>
+       </form> 
+    </body>
+</html>
